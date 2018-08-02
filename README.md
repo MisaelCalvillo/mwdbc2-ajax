@@ -44,3 +44,23 @@ The **finished** app can be found in `src/AJAXBitcoin` folder.
 There are many reason for Fetch Library to have substituted XHR for HTTP requests. This [web page](https://domenic.github.io/streams-demo/) exemplifys thes stream concept that Fetch gives and XHR doesn't have.
 
 If you want to read more about Fetch Library go to [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch)
+
+***
+
+## Fetch API - Random User Excercise
+
+Make a small app that fetches the info o a user from an open source API called Random User
+```
+https://randomuser.me/api/
+
+```
+
+The website where to read more information about the API is found [here](https://randomuser.me/)
+
+All the code of the app can be found at `src/FethcRandomUser` folder.
+
+A small glimpse on how the users card could look.
+
+![Image of the card generated for every user](./docs/img/1.png)
+
+***
