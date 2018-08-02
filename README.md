@@ -38,3 +38,9 @@ The link to see the JSON we consumed through an HTTP request.
 [Current Bitcoin Price JSON](https://api.coindesk.com/v1/bpi/currentprice.json)
 
 The **finished** app can be found in `src/AJAXBitcoin` folder.
+
+## Fetch Library
+
+There are many reason for Fetch Library to have substituted XHR for HTTP requests. This [web page](https://domenic.github.io/streams-demo/) exemplifys thes stream concept that Fetch gives and XHR doesn't have.
+
+If you want to read more about Fetch Library go to [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch)
