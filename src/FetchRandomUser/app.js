@@ -1,4 +1,5 @@
 let btnGetUser = document.querySelector('#btn');
+let url = 'https://randomuser.me/api/';
 
 let realName = document.querySelector('#fullname');
 let userName = document.querySelector('#username');
@@ -7,8 +8,6 @@ let city = document.querySelector('#city');
 let avatar = document.querySelector('#avatar');
 
 btnGetUser.addEventListener('click', function(){
-  let url = 'https://randomuser.me/api/';
-
   fetch(url)
   .then(handleErrors)
   .then(parseJSON)
