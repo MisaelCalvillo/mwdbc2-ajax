@@ -155,3 +155,14 @@ This [pen](https://codepen.io/Colt/pen/braVVr?editors=1010) made by Colt Steele 
 
 If you want to check how these methods are built on `$.ajax` you can read the [Shorthand Methods Sourcecode](https://github.com/jquery/jquery/blob/731c501155ef139f53029c0e58409b80f0af3a0c/src/ajax.js "Shorthand Methods Sourcecode").
 
+## jQuery Random Cat Generator - Practice
+
+We used a random cat image generator API
+```
+https://aws.random.cat/meow
+```
+
+We also made use of another jQuery method: `$.attr()` 
+This method allow us to change the attributes of DOM elements.
+
+The end result for the exercise can be found in `src/jQueryCatsAPI` folder. 
