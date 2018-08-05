@@ -199,3 +199,12 @@ axios.get(url)
 Under the hood `Axios` just creates an XMLHttpRequest.
 
 > You can read the official Axios documentation [here](https://github.com/axios/axios).
+
+#### Challenge - Ron Swanson Random Quote Generator
+
+We created an app that makes the same Http request with the four methods seen here. The end point used for the requests is `https://ron-swanson-quotes.herokuapp.com`. 
+
+The code of the challenge can be found in `src/AJAX4Ways` folder.
+
+![Random Ron Swanson Quote Generator](./docs/img/2.png)
+
