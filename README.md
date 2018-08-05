@@ -166,3 +166,36 @@ We also made use of another jQuery method: `$.attr()`
 This method allow us to change the attributes of DOM elements.
 
 The end result for the exercise can be found in `src/jQueryCatsAPI` folder. 
+
+## Axios
+
+The reason Axios is preferred instead of jQuery is that it is a lightweight library exclusively made for HTTP requests. Also there is a great web site called [You Might Not Need jQuery](http://youmightnotneedjquery.com/ "You Might Not Need jQuery") and there you can learn to do a lot a jQuery stuff without jQuery !!! :rocket:
+
+#### Install Axios
+
+```bash
+npm install --save axios
+```
+
+or use a CDN
+
+```html
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+```
+
+#### How to use
+
+The basic syntax to make an HTTP request with `Axios` and you can play with a live code example [here](https://codepen.io/Colt/pen/rzpLqE).
+
+```javascript
+axios.get(url)
+.then(function(res){
+  console.log(res.data);
+})
+.catch(function(error){
+  console.log(error);
+})
+```
+Under the hood `Axios` just creates an XMLHttpRequest.
+
+> You can read the official Axios documentation [here](https://github.com/axios/axios).
